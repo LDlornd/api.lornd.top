@@ -25,7 +25,9 @@ SECRET_KEY = '1nnyjqyt0kf+hv5u82(nud)fr13oi-#tcam@!n6-e1f*oflmb6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'api.lornd.top',
+]
 
 
 # Application definition
