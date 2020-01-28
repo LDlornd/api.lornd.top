@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -28,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -88,6 +90,9 @@
       <updated>1579955905065</updated>
       <workItem from="1579956398243" duration="3477000" />
       <workItem from="1580011704583" duration="1061000" />
+      <workItem from="1580120308696" duration="6625000" />
+      <workItem from="1580180278161" duration="3186000" />
+      <workItem from="1580187753202" duration="13018000" />
     </task>
     <servers />
   </component>
@@ -95,29 +100,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1458" height="256" key="GridCell.Tab.0.bottom" timestamp="1580011802206">
+    <state width="1458" height="231" key="GridCell.Tab.0.bottom" timestamp="1580207675292">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580011802206" />
-    <state width="1458" height="256" key="GridCell.Tab.0.center" timestamp="1580011802205">
+    <state width="1458" height="231" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
+    <state width="1458" height="231" key="GridCell.Tab.0.center" timestamp="1580207675292">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1580011802205" />
-    <state width="1458" height="256" key="GridCell.Tab.0.left" timestamp="1580011802204">
+    <state width="1458" height="231" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
+    <state width="1458" height="231" key="GridCell.Tab.0.left" timestamp="1580207675292">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1580011802204" />
-    <state width="1458" height="256" key="GridCell.Tab.0.right" timestamp="1580011802205">
+    <state width="1458" height="231" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
+    <state width="1458" height="231" key="GridCell.Tab.0.right" timestamp="1580207675292">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="256" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1580011802205" />
+    <state width="1458" height="231" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
     <state x="252" y="122" key="SettingsEditor" timestamp="1579956653261">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="252" y="122" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1579956653261" />
-    <state x="434" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1580011713728">
+    <state x="434" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1580187753512">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="434" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1580011713728" />
+    <state x="434" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1580187753512" />
+    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1580124918905">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1580124918905" />
   </component>
 </project>
