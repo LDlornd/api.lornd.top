@@ -9,7 +9,7 @@ from django.views import View
 class Hello(View):
     def get(self, request):
         a = get_token(request)
-        return HttpResponse("hello,123!")
+        return HttpResponse("hello,you can start to code now!")
 
     def post(self, request):
         a = request.POST.get('a')

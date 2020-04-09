@@ -1,2 +1,5 @@
 .idea/
-__pyache__/
+api/.idea/
+api/__pycache__/
+api/api/__pycache__/
+api/hello/__pycache__/
