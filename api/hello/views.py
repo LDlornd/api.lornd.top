@@ -8,7 +8,8 @@ from django.views import View
 
 class Hello(View):
     def get(self, request):
-        return HttpResponse("hello,World!")
+        a = get_token(request)
+        return HttpResponse("hello,123!")
 
     def post(self, request):
         a = request.POST.get('a')

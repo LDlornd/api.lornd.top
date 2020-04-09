@@ -6,31 +6,10 @@
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.js"></script>
     <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.js"></script>
     <script>
-        function ajax() {
+        function post() {
             $.ajax({
-                url: 'http://localhost:8000/hello/',
-                type: 'GET',
-                xhrFields: {
-                   withCredentials: true
-                },
-                success: function () {
-                    post(csrftoken);
-                },
-                error: function (data) {
-                    alert("fuck");
-                }
-            });
-        }
-        function post(csrf) {
-            $.ajax({
-                url: 'http://localhost:8000/hello/',
+                url: 'http://api.lornd.top/hello/',
                 type: 'POST',
-                xhrFields: {
-                   withCredentials: true
-                },
-                headers: {
-                    "X-CSRFToken": $.cookie("csrftoken"),
-                },
                 data: {
                     'a': $("#a").val(),
                     'b': $("#b").val(),
@@ -49,6 +28,6 @@
 <body>
     <p>a: <input type="text" id="a" name="a"></p>
     <p>b: <input type="text" id="b" name="b"></p>
-    <p><input type="button" id="submit" value="提交" onclick="ajax()"></p>
+    <p><input type="button" id="submit" value="提交" onclick="post()"></p>
 </body>
 </html>

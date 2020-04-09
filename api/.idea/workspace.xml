@@ -38,7 +38,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="api" type="Python.DjangoServer" factoryName="Django server">
@@ -92,7 +92,11 @@
       <workItem from="1580011704583" duration="1061000" />
       <workItem from="1580120308696" duration="6625000" />
       <workItem from="1580180278161" duration="3186000" />
-      <workItem from="1580187753202" duration="13018000" />
+      <workItem from="1580187753202" duration="14652000" />
+      <workItem from="1580210240762" duration="240000" />
+      <workItem from="1580275241362" duration="2855000" />
+      <workItem from="1580956056400" duration="675000" />
+      <workItem from="1581045188059" duration="750000" />
     </task>
     <servers />
   </component>
@@ -100,30 +104,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1458" height="231" key="GridCell.Tab.0.bottom" timestamp="1580207675292">
+    <state x="532" y="222" key="FileChooserDialogImpl" timestamp="1581045316818">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="231" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
-    <state width="1458" height="231" key="GridCell.Tab.0.center" timestamp="1580207675292">
+    <state x="532" y="222" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1581045316818" />
+    <state width="1458" height="231" key="GridCell.Tab.0.bottom" timestamp="1580210169781">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="231" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
-    <state width="1458" height="231" key="GridCell.Tab.0.left" timestamp="1580207675292">
+    <state width="1458" height="231" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1580210169781" />
+    <state width="1458" height="231" key="GridCell.Tab.0.center" timestamp="1580210169781">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="231" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
-    <state width="1458" height="231" key="GridCell.Tab.0.right" timestamp="1580207675292">
+    <state width="1458" height="231" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1580210169781" />
+    <state width="1458" height="231" key="GridCell.Tab.0.left" timestamp="1580210169781">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="231" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1580207675292" />
-    <state x="252" y="122" key="SettingsEditor" timestamp="1579956653261">
+    <state width="1458" height="231" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1580210169781" />
+    <state width="1458" height="231" key="GridCell.Tab.0.right" timestamp="1580210169781">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="252" y="122" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1579956653261" />
-    <state x="434" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1580187753512">
+    <state width="1458" height="231" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1580210169781" />
+    <state x="252" y="122" key="SettingsEditor" timestamp="1580956126692">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="434" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1580187753512" />
+    <state x="252" y="122" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1580956126692" />
+    <state x="434" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1581045193278">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="434" y="304" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1581045193278" />
     <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1580124918905">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
