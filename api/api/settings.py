@@ -26,6 +26,7 @@ SECRET_KEY = '1nnyjqyt0kf+hv5u82(nud)fr13oi-#tcam@!n6-e1f*oflmb6'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'lorndapi.learningman.top',
     'api.lornd.top',
     '127.0.0.1',
     'localhost',
