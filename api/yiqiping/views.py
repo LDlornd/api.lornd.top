@@ -1,3 +1,4 @@
+from django.core.exceptions import ObjectDoesNotExist
 from django.http import HttpResponse, JsonResponse
 from django.middleware.csrf import get_token
 from django.views import View
@@ -10,17 +11,18 @@ class Login(View):
         self.appsecret = "f4079c3335530c7f3ab3e1209d51c5e0"
 
     def get(self, request):
-        appid = "wxbd16949500a303a3"
-        appsecret = "f4079c3335530c7f3ab3e1209d51c5e0"
-        data = {
-            "hello": "hello",
-        }
-        return JsonResponse(data)
+        session = request.POST.get("session")
+        user = User.objects.get(session=session)
+        return_data = []
+        if user is null:
+            return_data["status"] = -1
+            return_data["message"] = "session is invalid!"
+        else:
+            openid = user.openid
+            session_key = user.session_key
 
     def post(self, request):
-        print(request.POST)
         code = request.POST.get("code")
-        print(code)
         url = "https://api.weixin.qq.com/sns/jscode2session"
         data = {
             "appid": self.appid,
@@ -44,4 +46,25 @@ class Login(View):
             user.save()
             return_data["status"] = 0
             return_data["session"] = user.session
+        return JsonResponse(return_data)
+
+class SetInformation(View):
+    def post(self, request):
+        province = request.POST.get("province")
+        city = request.POST.get("city")
+        name = request.POST.get("name")
+        session = request.POST.get("session")
+        return_data = {}
+        try:
+            user = User.objects.get(session=session)
+        except ObjectDoesNotExist:
+            return_data["status"] = -1
+            return_data["message"] = "session is invalid!"
+        else:
+            user.province = province
+            user.city = city
+            user.name = name
+            user.save()
+            return_data["status"] = 0
+            return_data["message"] = "success"
         return JsonResponse(return_data)

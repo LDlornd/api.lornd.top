@@ -3,3 +3,7 @@ api/.idea/
 api/__pycache__/
 api/api/__pycache__/
 api/hello/__pycache__/
+api/yiqiping/__pycache__/
+api/api/migrations/__pycache__/
+api/hello/migrations/__pycache__/
+api/yiqiping/migrations/__pycache__/
