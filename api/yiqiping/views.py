@@ -13,8 +13,7 @@ class Login(View):
         appid = "wxbd16949500a303a3"
         appsecret = "f4079c3335530c7f3ab3e1209d51c5e0"
         data = {
-            "appid": appid,
-            "appsecrect": appsecret,
+            "hello": "hello",
         }
         return JsonResponse(data)
 
@@ -31,7 +30,7 @@ class Login(View):
         }
         response = requests.get(url=url, params=data)
         data = json.loads(response.text)
-        return_data = {"data": data}
+        return_data = {}
         if data.get("errcode"):
             return_data["staus"] = -1
             return_data["message"] = data["errmsg"]
@@ -39,7 +38,9 @@ class Login(View):
             user = User()
             user.session_key = data["session_key"]
             user.openid = data["openid"]
-            user.session = request.session.sessionkey
+            if not request.session.session_key:
+                request.session.create()
+            user.session = request.session.session_key
             user.save()
             return_data["status"] = 0
             return_data["session"] = user.session
